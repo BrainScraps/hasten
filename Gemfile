@@ -4,7 +4,7 @@ gem 'rails'
 gem 'pg'
 gem 'devise'
 gem 'turbolinks'
-
+gem 'haml-rails'
 group :development do
   gem 'pry-rails'
   gem 'pry-debugger'
@@ -16,7 +16,6 @@ end
 group :assets do
   gem 'sass-rails'
   gem 'coffee-rails'
-  gem 'haml-rails'
   gem 'uglifier'
   gem 'twitter-bootstrap-rails'
   gem 'therubyracer'
