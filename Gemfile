@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails'
 gem 'pg'
 gem 'devise'
+gem 'turbolinks'
 
 group :development do
   gem 'pry-rails'
