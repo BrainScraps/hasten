@@ -13,13 +13,11 @@ group :development do
   gem 'meta_request'
 end
 
-group :assets do
-  gem 'sass-rails'
+gem 'less-rails'
   gem 'coffee-rails'
   gem 'uglifier'
   gem 'twitter-bootstrap-rails'
   gem 'therubyracer'
-end
 
 gem 'jquery-rails'
 
