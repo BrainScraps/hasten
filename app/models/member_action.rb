@@ -1,4 +1,4 @@
 class MemberAction < ActiveRecord::Base
-  belongs_to :family_members
-  has_one :action
+  belongs_to :action
+  belongs_to :family_member
 end
